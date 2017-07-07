@@ -19,7 +19,7 @@ class PogoGymsBotModule extends BotModule {
       const query = ctx.update.inline_query || ''
       const results = GymsRepo.searchGym(query.query)
       const telegramResults = results.map(locationResultMapper)
-      ctx.answerInlineQuery(telegramResults)
+      ctx.answerInlineQuery(telegramResults.slice(0,50))
     })
   }
 }
