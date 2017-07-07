@@ -1,0 +1,23 @@
+{
+  "name": "pogo-gyms-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot to ask for pogo gyms location",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jophj/pogo-gyms-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jophj/pogo-gyms-bot/issues"
+  },
+  "homepage": "https://github.com/jophj/pogo-gyms-bot#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "telegraf": "^3.6.4"
+  }
+}

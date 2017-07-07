@@ -1,0 +1,16 @@
+[
+  {
+    "id": "24d2f36149df4a7bb519a789e22f6a13.16",
+    "name": "Gym name here",
+    "latitude": 33.853439,
+    "longitude": 21.085701,
+    "imageUrl": "http://lh6.ggpht.com/fU8I-rJHcz3lkpVOR84HSHJlj6eeDyfcCF2o2g4c8Oww5Y_RsFqJ-bUwHQnrC5ZfuICKuV2xwE3"
+  },
+  {
+    "id": "1232f32149df4a7bb519a789e32f6a13.32",
+    "name": "Another Gym",
+    "latitude": 63.3453439,
+    "longitude": 41.485701,
+    "imageUrl": "http://lh5.ggpht.com/oQvoD6JZqmbKrzXVCVvQatnvHhkgSLHkTmm0AXvm7FPNt5K6GyK9LpHacElwiFiO0hCxjXCHSaYd"
+  }
+]
