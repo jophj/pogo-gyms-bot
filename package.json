@@ -19,5 +19,8 @@
   "dependencies": {
     "bluebird": "^3.4.7",
     "telegraf": "^3.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
   }
 }
