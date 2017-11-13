@@ -18,6 +18,8 @@
   "homepage": "https://github.com/jophj/pogo-gyms-bot#readme",
   "dependencies": {
     "bluebird": "^3.4.7",
+    "lunr": "^2.1.4",
+    "lunr-languages": "^1.0.0",
     "telegraf": "^3.6.4"
   },
   "devDependencies": {
