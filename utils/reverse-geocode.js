@@ -1,3 +1,4 @@
+const fs = require('fs')
 const querystring = require('querystring')
 const Promise = require('bluebird')
 const eachLimit = require('async/eachLimit')
@@ -16,17 +17,23 @@ async function addCity (g, callback) {
   })
   const body = await res.json()
   g.city = body.address.city
-  callback()
+  console.log(g)
+  if (callback) callback()
 }
 
 async function Main() {
-  const gyms = require('../gyms.json').slice(0, 1)
+  const gyms = require('../gyms.json')
 
   eachLimit(gyms, 1, addCity, function(err) {
-    console.log(err, gyms)
+    if (err) {
+      console.log(err)
+    }
+    else {
+      console.log('All', gyms.length, 'gyms processed')
+      fs.writeFile('gyms-with-city.json', JSON.stringify(gyms), (err) => console.log('Gyms saved in gyms-with-city.json', err))
+    }
   })
-
-} 
+}
 
 Main()
   .then()

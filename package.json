@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.6.0",
     "bluebird": "^3.4.7",
+    "encoding": "^0.1.12",
     "lunr": "^2.1.4",
     "lunr-languages": "^1.0.0",
     "node-fetch": "^1.7.3",
